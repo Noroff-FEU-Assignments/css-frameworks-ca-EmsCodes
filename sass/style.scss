@@ -1,5 +1,10 @@
 @import "./partials/custom";
 
+@import "../boostrap-scss/functions";
+@import "../boostrap-scss/variables";
+@import "../boostrap-scss/mixins";
+@import "../boostrap-scss/utilities";
+
 // @import "../boostrap-scss/root";
 @import "../boostrap-scss/reboot";
 @import "../boostrap-scss/type";
@@ -32,6 +37,8 @@
 @import "../boostrap-scss/offcanvas";
 @import "../boostrap-scss/placeholders";
 
-body {
-	background: red;
-}
+@import "../boostrap-scss/helpers";
+@import "../boostrap-scss/utilities/api";
+
+@import "./partials/nav";
+@import "./partials/layout";
