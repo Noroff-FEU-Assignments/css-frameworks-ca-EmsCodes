@@ -1,0 +1,8 @@
+$font-primary: 'Lato', sans-serif;
+$font-headings: 'Playfair Display', serif;
+
+@function getColour($colour) {
+	@return map-get($colours, $colour);
+}
+
+$colours: (body:radial-gradient(#fff, #e5e5e5));

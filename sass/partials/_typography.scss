@@ -1,0 +1,21 @@
+body {
+	font-family: $font-primary;
+}
+
+.font-style {
+	font-family: $font-headings !important;
+	color: $primary !important;
+}
+
+h1 {
+	@extend .font-style;
+}
+.navbar-brand {
+	@extend .font-style;
+	font-style: italic !important;
+	font-weight: bold !important;
+
+	span {
+		text-transform: uppercase;
+	}
+}

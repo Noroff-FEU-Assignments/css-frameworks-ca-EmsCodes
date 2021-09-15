@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display:ital,wght@0,400;1,700&display=swap" rel="stylesheet"> 
     <link href="css/style.css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <title>The Yay Company - Contact</title>
@@ -37,32 +40,53 @@
           </nav>
     </header>
     <main>
-        <h1>Submit your details</h1>
-        <div class="container">
-            <form>
-                <div class="mb-3">
-                    <label for="name" class="form-label">Name</label>
-                    <input type="text" class="form-control" id="name">
+        <div class="d-md-flex flex-md-row-reverse  justify-content-center container align-items-center">
+            <section class="container">
+                <div class="d-flex">
+                    <i class="fas fa-envelope me-3"></i>
+                    <p>hello@yay.com</p>
                 </div>
-                <div class="mb-3">
-                    <label for="email" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                <div class="d-flex">
+                    <i class="fas fa-phone me-3"></i>
+                    <p>123 456 7890</p>
                 </div>
-                <div class="mb-3">
-                    <label for="website" class="form-label">Website</label>
-                    <input type="text" class="form-control" id="website">
+                <div class="d-flex">
+                    <i class="fas fa-map-marker-alt me-3"></i>
+                    <div>
+                        <p>123 Some Street</p>
+                        <p>Somewhere</p>
+                        <p>Some City</p>
+                        <p>10 000</p>
+                    </div>
                 </div>
-                <div class="mb-3 form-check">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                    <label class="form-check-label" for="exampleCheck1">
-                        Allow us to sell your personal details
-                        to whomever we want
-                    </label>
-                </div>
-                <div class="d-grid">
-                    <button type="submit" class="btn btn-primary">Submit</button>
-                </div>
-            </form>
+            </section>
+            <section class="container">
+                <h1>Submit your details</h1>
+                <form>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                        <label for="website" class="form-label">Website</label>
+                        <input type="text" class="form-control" id="website">
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">
+                            Allow us to sell your personal details
+                            to whomever we want
+                        </label>
+                    </div>
+                    <div class="d-grid">
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                </form>
+            </section>
         </div>
     </main>
     <footer>

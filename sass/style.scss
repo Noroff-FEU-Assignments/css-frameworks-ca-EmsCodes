@@ -1,3 +1,4 @@
+@import "./partials/variables";
 @import "./partials/custom";
 
 @import "../boostrap-scss/functions";
@@ -11,7 +12,6 @@
 @import "../boostrap-scss/images";
 @import "../boostrap-scss/containers";
 @import "../boostrap-scss/grid";
-@import "../boostrap-scss/tables";
 @import "../boostrap-scss/forms";
 @import "../boostrap-scss/buttons";
 @import "../boostrap-scss/transitions";
@@ -21,24 +21,18 @@
 @import "../boostrap-scss/navbar";
 @import "../boostrap-scss/card";
 @import "../boostrap-scss/accordion";
-@import "../boostrap-scss/breadcrumb";
 @import "../boostrap-scss/pagination";
 @import "../boostrap-scss/badge";
-@import "../boostrap-scss/alert";
-@import "../boostrap-scss/progress";
 @import "../boostrap-scss/list-group";
 @import "../boostrap-scss/close";
 @import "../boostrap-scss/toasts";
-@import "../boostrap-scss/modal";
-@import "../boostrap-scss/tooltip";
-@import "../boostrap-scss/popover";
 @import "../boostrap-scss/carousel";
-@import "../boostrap-scss/spinners";
 @import "../boostrap-scss/offcanvas";
-@import "../boostrap-scss/placeholders";
 
 @import "../boostrap-scss/helpers";
 @import "../boostrap-scss/utilities/api";
 
+// Partials
 @import "./partials/nav";
 @import "./partials/layout";
+@import "./partials/typography";
