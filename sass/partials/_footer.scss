@@ -1,0 +1,9 @@
+footer {
+	background: $white;
+	color: getColour(dark-gray);
+
+	.fab {
+		font-size: 2em;
+		color: getColour(dark-gray);
+	}
+}

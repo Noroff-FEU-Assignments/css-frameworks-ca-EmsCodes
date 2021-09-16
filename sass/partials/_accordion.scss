@@ -13,16 +13,17 @@
 	}
 	.fab {
 		color: getColour(black);
-		font-size: 1.8em;
+		font-size: 1.5em;
 	}
 	.share-text {
 		text-transform: uppercase;
-		font-size: 1.1em;
+		font-size: 1em;
 	}
 }
 
 .accordion {
 	box-shadow: 0px 12px 15px #00000015;
+	margin-bottom: 100px;
 }
 
 .accordion-button::after {

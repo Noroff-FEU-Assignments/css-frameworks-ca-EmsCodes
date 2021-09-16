@@ -9,11 +9,11 @@ body {
 }
 main {
 	flex: 1 0 auto;
+	max-width: 1280px;
 }
-.wrapper {
+.container {
 	max-width: 90%;
 }
 footer {
 	flex-shrink: 0;
-	margin-top: 100px;
 }
