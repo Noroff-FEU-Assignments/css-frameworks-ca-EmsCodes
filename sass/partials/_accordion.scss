@@ -1,0 +1,30 @@
+.accordion-item {
+	background: getColour(body);
+	border-bottom: 1px solid getColor(border-color);
+	border-top: none;
+	border-left: none;
+	border-right: none;
+
+	h2 {
+		background: $white;
+	}
+	.show {
+		border-top: 2px solid $primary;
+	}
+	.fab {
+		color: getColour(black);
+		font-size: 1.8em;
+	}
+	.share-text {
+		text-transform: uppercase;
+		font-size: 1.1em;
+	}
+}
+
+.accordion {
+	box-shadow: 0px 12px 15px #00000015;
+}
+
+.accordion-button::after {
+	display: none;
+}

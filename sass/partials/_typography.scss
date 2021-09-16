@@ -9,6 +9,7 @@ body {
 
 h1 {
 	@extend .font-style;
+	font-size: 2.5em;
 }
 .navbar-brand {
 	@extend .font-style;
@@ -21,4 +22,7 @@ h1 {
 	span {
 		text-transform: uppercase;
 	}
+}
+.accordion-button {
+	font-size: 0.8em;
 }
