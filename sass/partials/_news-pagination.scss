@@ -1,10 +1,25 @@
 .card {
 	border: none;
+	box-shadow: $shadow;
 	a {
 		color: $white;
 	}
 	img {
 		border-radius: 10px 10px 0 0;
+	}
+
+	.btn-primary {
+		position: relative;
+	}
+	.btn-primary::after {
+		position: absolute;
+		content: "";
+		top: 0;
+		left: 90%;
+		bottom: 0;
+		right: 0;
+		border-radius: 0 3px 3px 0;
+		background-color: getColour(dark-gray);
 	}
 }
 
@@ -12,17 +27,4 @@
 	a {
 		border-color: $primary !important;
 	}
-}
-.btn {
-	position: relative;
-}
-.btn::after {
-	position: absolute;
-	content: "";
-	height: 100%;
-	top: 0;
-	left: 90%;
-	bottom: 0;
-	right: 0;
-	background-color: green;
 }

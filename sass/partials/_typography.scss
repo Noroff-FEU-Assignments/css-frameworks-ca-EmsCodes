@@ -29,3 +29,10 @@ h2 {
 .accordion-button {
 	font-size: 0.8em;
 }
+
+@media (min-width: 993px) {
+	.navbar-brand {
+		margin-top: 0;
+		font-size: 1.3em;
+	}
+}

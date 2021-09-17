@@ -10815,6 +10815,37 @@ nav li {
   margin-top: 10px;
 }
 
+@media (min-width: 993px) {
+  nav .container-fluid, nav .container-sm, nav .container-md, nav .container-lg, nav .container-xl, nav .container-xxl {
+    padding: 0;
+  }
+  nav form {
+    padding-top: 10px;
+  }
+  nav .active {
+    background: #fff;
+  }
+  nav .btn {
+    border: none;
+    background: #e92569;
+    color: #fff;
+    border-radius: 0 4px 4px 0;
+  }
+  nav .nav-link {
+    margin-left: 12%;
+    padding: 5px;
+  }
+  nav ul {
+    margin-top: 0;
+    margin-left: 5%;
+  }
+  nav li {
+    margin-top: 0;
+    padding-right: 15px;
+    border-radius: 3px;
+  }
+}
+
 html,
 body {
   height: 100%;
@@ -10828,13 +10859,14 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  background: radial-gradient(circle, white 0%, #e5e5e5 100%);
 }
 
 main {
   -webkit-box-flex: 1;
       -ms-flex: 1 0 auto;
           flex: 1 0 auto;
-  background: radial-gradient(circle, white 0%, #e5e5e5 100%);
+  max-width: 1280px;
 }
 
 .container {
@@ -10877,6 +10909,13 @@ h2, .h2 {
 
 .accordion-button {
   font-size: 0.8em;
+}
+
+@media (min-width: 993px) {
+  .navbar-brand {
+    margin-top: 0;
+    font-size: 1.3em;
+  }
 }
 
 .carousel-indicators {
@@ -10950,6 +10989,8 @@ footer .fab {
 
 .card {
   border: none;
+  -webkit-box-shadow: 0px 12px 15px #00000015;
+          box-shadow: 0px 12px 15px #00000015;
 }
 
 .card a {
@@ -10960,21 +11001,21 @@ footer .fab {
   border-radius: 10px 10px 0 0;
 }
 
-.pagination a {
-  border-color: #e92569 !important;
-}
-
-.btn {
+.card .btn-primary {
   position: relative;
 }
 
-.btn::after {
+.card .btn-primary::after {
   position: absolute;
   content: "";
-  height: 100%;
   top: 0;
   left: 90%;
   bottom: 0;
   right: 0;
-  background-color: green;
+  border-radius: 0 3px 3px 0;
+  background-color: #767676;
+}
+
+.pagination a {
+  border-color: #e92569 !important;
 }

@@ -1,6 +1,8 @@
 $font-primary: 'Lato', sans-serif;
 $font-headings: 'Playfair Display', serif;
 
+$shadow: 0px 12px 15px #00000015;
+
 @function getColour($colour) {
 	@return map-get($colours, $colour);
 }

@@ -5,7 +5,7 @@
 }
 
 header {
-	background: #efefef;
+	background: getColour(light-gray);
 }
 
 nav {
@@ -44,5 +44,38 @@ nav {
 	}
 	li {
 		margin-top: 10px;
+	}
+}
+
+@media (min-width: 993px) {
+	nav {
+		.container-fluid {
+			padding: 0;
+		}
+		form {
+			padding-top: 10px;
+		}
+		.active {
+			background: $white;
+		}
+		.btn {
+			border: none;
+			background: $primary;
+			color: $white;
+			border-radius: 0 4px 4px 0;
+		}
+		.nav-link {
+			margin-left: 12%;
+			padding: 5px;
+		}
+		ul {
+			margin-top: 0;
+			margin-left: 5%;
+		}
+		li {
+			margin-top: 0;
+			padding-right: 15px;
+			border-radius: 3px;
+		}
 	}
 }
