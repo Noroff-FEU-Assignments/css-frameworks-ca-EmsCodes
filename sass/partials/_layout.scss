@@ -5,11 +5,10 @@ body {
 body {
 	display: flex;
 	flex-direction: column;
-	background: getColour(body);
 }
 main {
 	flex: 1 0 auto;
-	max-width: 1280px;
+	background: getColour(body);
 }
 .container {
 	max-width: 90%;

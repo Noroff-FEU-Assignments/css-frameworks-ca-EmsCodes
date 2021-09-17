@@ -1,6 +1,6 @@
 .accordion-item {
 	background: getColour(body);
-	border-bottom: 1px solid getColor(border-color);
+	border-bottom: 1px solid getColor(light-gray);
 	border-top: none;
 	border-left: none;
 	border-right: none;
@@ -24,6 +24,10 @@
 .accordion {
 	box-shadow: 0px 12px 15px #00000015;
 	margin-bottom: 100px;
+
+	.accordion-body {
+		width: 95%;
+	}
 }
 
 .accordion-button::after {
