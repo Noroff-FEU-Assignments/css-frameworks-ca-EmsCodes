@@ -8,10 +8,10 @@
 		border-radius: 10px 10px 0 0;
 	}
 
-	.btn-primary {
+	.btn-gray-style {
 		position: relative;
 	}
-	.btn-primary::after {
+	.btn-gray-style::after {
 		position: absolute;
 		content: "";
 		top: 0;
@@ -26,5 +26,14 @@
 .pagination {
 	a {
 		border-color: $primary !important;
+		padding: 15px 20px;
+	}
+}
+
+@media (min-width: 992px) {
+	.card {
+		.btn-gray-style::after {
+			left: 85%;
+		}
 	}
 }

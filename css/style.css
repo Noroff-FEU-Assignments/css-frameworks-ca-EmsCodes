@@ -10753,6 +10753,7 @@ fieldset:disabled .btn {
   border: none !important;
   margin-right: 5%;
   margin-top: 5px;
+  font-size: 1.5em;
 }
 
 header {
@@ -10815,6 +10816,12 @@ nav li {
   margin-top: 10px;
 }
 
+@media (min-width: 768px) {
+  .navbar-toggler {
+    font-size: 1.8em;
+  }
+}
+
 @media (min-width: 993px) {
   nav .container-fluid, nav .container-sm, nav .container-md, nav .container-lg, nav .container-xl, nav .container-xxl {
     padding: 0;
@@ -10866,11 +10873,11 @@ main {
   -webkit-box-flex: 1;
       -ms-flex: 1 0 auto;
           flex: 1 0 auto;
-  max-width: 1280px;
 }
 
 .container {
-  max-width: 90%;
+  width: 90%;
+  max-width: 1280px;
 }
 
 footer {
@@ -11001,11 +11008,11 @@ footer .fab {
   border-radius: 10px 10px 0 0;
 }
 
-.card .btn-primary {
+.card .btn-gray-style {
   position: relative;
 }
 
-.card .btn-primary::after {
+.card .btn-gray-style::after {
   position: absolute;
   content: "";
   top: 0;
@@ -11018,4 +11025,15 @@ footer .fab {
 
 .pagination a {
   border-color: #e92569 !important;
+  padding: 15px 20px;
+}
+
+@media (min-width: 992px) {
+  .card .btn-gray-style::after {
+    left: 85%;
+  }
+}
+
+.contact-form {
+  background: radial-gradient(circle, white 0%, #e5e5e5 100%);
 }
