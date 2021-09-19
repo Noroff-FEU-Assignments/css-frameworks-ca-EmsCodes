@@ -10907,7 +10907,7 @@ h2, .h2 {
   font-weight: bold !important;
   margin-left: 5%;
   margin-top: 5px;
-  font-size: 1.1em;
+  font-size: 1.2em;
 }
 
 .navbar-brand span {
@@ -10918,10 +10918,17 @@ h2, .h2 {
   font-size: 0.8em;
 }
 
-@media (min-width: 993px) {
+@media (min-width: 768px) {
   .navbar-brand {
     margin-top: 0;
     font-size: 1.3em;
+  }
+}
+
+@media (min-width: 993px) {
+  .navbar-brand {
+    margin-top: 0;
+    font-size: 1.5em;
   }
 }
 
@@ -11061,6 +11068,7 @@ footer .fab {
 
 .contact-form .btn {
   color: #fff;
+  margin-top: 30px;
 }
 
 .contact-form .form-check-input {
@@ -11069,8 +11077,31 @@ footer .fab {
   border: none;
 }
 
+.contact-info {
+  color: #767676;
+  margin: 50px 0 50px 10%;
+}
+
+.contact-info .fas {
+  font-size: 1.8em;
+}
+
 @media (min-width: 532px) {
   .form-check-label {
     margin-top: 8px;
+  }
+}
+
+@media (min-width: 768px) {
+  .wrapper {
+    margin-left: 5%;
+    margin-top: 50px;
+    width: 90%;
+  }
+  .form-check-label {
+    margin-top: 0px;
+  }
+  .contact-form .btn {
+    margin-top: 25px;
   }
 }

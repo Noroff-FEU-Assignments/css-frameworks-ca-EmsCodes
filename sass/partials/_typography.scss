@@ -20,7 +20,7 @@ h2 {
 	font-weight: bold !important;
 	margin-left: 5%;
 	margin-top: 5px;
-	font-size: 1.1em;
+	font-size: 1.2em;
 
 	span {
 		text-transform: uppercase;
@@ -30,9 +30,16 @@ h2 {
 	font-size: 0.8em;
 }
 
-@media (min-width: 993px) {
+@media (min-width: 768px) {
 	.navbar-brand {
 		margin-top: 0;
 		font-size: 1.3em;
+	}
+}
+
+@media (min-width: 993px) {
+	.navbar-brand {
+		margin-top: 0;
+		font-size: 1.5em;
 	}
 }
