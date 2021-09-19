@@ -1,0 +1,10 @@
+.tab-pane {
+	background: $white;
+	.nav-item {
+		border: none;
+	}
+	.fab {
+		color: getColour(black);
+		font-size: 1.5em;
+	}
+}

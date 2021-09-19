@@ -42,4 +42,13 @@
 			margin-top: 25px;
 		}
 	}
+	.contact-info {
+		margin-top: 60px;
+	}
+}
+@media (min-width: 1280px) {
+	.wrapper {
+		margin-left: 10%;
+		max-width: 1280px;
+	}
 }

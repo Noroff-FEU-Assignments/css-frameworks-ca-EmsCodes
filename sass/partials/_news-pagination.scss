@@ -24,13 +24,17 @@
 	.btn {
 		border-radius: 3px;
 		text-transform: uppercase;
+		font-size: 0.8em;
+	}
+	p {
+		color: getColour(dark-gray);
 	}
 }
 
 .pagination {
 	a {
 		border-color: $primary !important;
-		padding: 15px 20px;
+		padding: 10px 15px;
 	}
 }
 
@@ -38,6 +42,10 @@
 	.card {
 		.btn-gray-style::after {
 			left: 85%;
+		}
+
+		h2 {
+			font-size: 1.2em;
 		}
 	}
 }

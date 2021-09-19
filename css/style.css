@@ -10918,6 +10918,12 @@ h2, .h2 {
   font-size: 0.8em;
 }
 
+.share-text {
+  text-transform: uppercase;
+  font-size: 1em;
+  font-weight: 400;
+}
+
 @media (min-width: 768px) {
   .navbar-brand {
     margin-top: 0;
@@ -10937,7 +10943,6 @@ h2, .h2 {
 }
 
 .carousel-indicators button {
-  border-radius: 5px !important;
   height: 20px !important;
   width: 20px !important;
   margin-right: 10px !important;
@@ -11045,16 +11050,24 @@ footer .fab {
 .card .btn {
   border-radius: 3px;
   text-transform: uppercase;
+  font-size: 0.8em;
+}
+
+.card p {
+  color: #767676;
 }
 
 .pagination a {
   border-color: #e92569 !important;
-  padding: 15px 20px;
+  padding: 10px 15px;
 }
 
 @media (min-width: 992px) {
   .card .btn-gray-style::after {
     left: 85%;
+  }
+  .card h2, .card .h2 {
+    font-size: 1.2em;
   }
 }
 
@@ -11104,4 +11117,27 @@ footer .fab {
   .contact-form .btn {
     margin-top: 25px;
   }
+  .contact-info {
+    margin-top: 60px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .wrapper {
+    margin-left: 10%;
+    max-width: 1280px;
+  }
+}
+
+.tab-pane {
+  background: #fff;
+}
+
+.tab-pane .nav-item {
+  border: none;
+}
+
+.tab-pane .fab {
+  color: #000;
+  font-size: 1.5em;
 }
