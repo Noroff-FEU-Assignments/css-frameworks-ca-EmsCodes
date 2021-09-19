@@ -2279,19 +2279,19 @@ textarea.form-control-lg {
 .form-check {
   display: block;
   min-height: 1.5rem;
-  padding-left: 1.5em;
+  padding-left: 2.3em;
   margin-bottom: 0.125rem;
 }
 
 .form-check .form-check-input {
   float: left;
-  margin-left: -1.5em;
+  margin-left: -2.3em;
 }
 
 .form-check-input {
-  width: 1em;
-  height: 1em;
-  margin-top: 0.25em;
+  width: 1.8em;
+  height: 1.8em;
+  margin-top: -0.15em;
   vertical-align: top;
   background-color: #fff;
   background-repeat: no-repeat;
@@ -10930,6 +10930,7 @@ h2, .h2 {
 }
 
 .carousel-indicators button {
+  border-radius: 5px !important;
   height: 20px !important;
   width: 20px !important;
   margin-right: 10px !important;
@@ -10942,6 +10943,17 @@ h2, .h2 {
 
 .carousel img {
   min-height: 150px;
+}
+
+@media (min-width: 768px) {
+  .carousel-indicators {
+    margin-bottom: 20px;
+  }
+  .carousel-indicators button {
+    height: 25px !important;
+    width: 25px !important;
+    margin-right: 15px !important;
+  }
 }
 
 .accordion-item {
@@ -11023,6 +11035,11 @@ footer .fab {
   background-color: #767676;
 }
 
+.card .btn {
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+
 .pagination a {
   border-color: #e92569 !important;
   padding: 15px 20px;
@@ -11036,4 +11053,24 @@ footer .fab {
 
 .contact-form {
   background: radial-gradient(circle, white 0%, #e5e5e5 100%);
+  padding: 30px 0;
+  margin-bottom: 100px;
+  -webkit-box-shadow: 0px 12px 15px #00000015;
+          box-shadow: 0px 12px 15px #00000015;
+}
+
+.contact-form .btn {
+  color: #fff;
+}
+
+.contact-form .form-check-input {
+  background: #e92569;
+  margin-top: 4px;
+  border: none;
+}
+
+@media (min-width: 532px) {
+  .form-check-label {
+    margin-top: 8px;
+  }
 }
